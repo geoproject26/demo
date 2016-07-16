@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo:war exploded">
+    <output-path>$PROJECT_DIR$/target/demo-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.1.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.1.RELEASE" />
+          <element id="library" level="project" name="commons-pool-1.4" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.39-bin" />
+          <element id="library" level="project" name="commons-dbcp-1.4" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="demo/web/Web" />
+    </root>
+  </artifact>
+</component>
